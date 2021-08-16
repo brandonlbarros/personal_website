@@ -1,0 +1,80 @@
+  
+.background {
+    background-image: linear-gradient(to bottom, white, white, white, grey, black);
+    padding: 0px;
+    text-align: center;
+    width: 100%; 
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    min-width: 800px;
+    min-height: 650px;
+}
+
+.backgroundImage {
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    margin-top: 0px; 
+    position: relative;
+}
+
+.backgroundImage::before {    
+    content: "";
+    background-image: url("/louvre.5631dd1e.jpg");
+    background-position: 50% 70%;
+    background-size: cover;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    margin-top: 0px; 
+    opacity: 0.4;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.title {
+    position: relative;
+    font-family: 'Courier New';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 65%;
+    font-family: 'Courier New';
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.sectionTitle {
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(99, 99, 99);
+}
+
+.menuChild {
+    width: 30%;
+    float: left;
+    padding: 20px;
+} 
+
+.spacer {
+    height: 20px;
+}
+
+.item:hover {
+    font-weight: 700;
+}
+
+/*# sourceMappingURL=/Website.e31bb0bc.css.map */
